@@ -1,0 +1,130 @@
+body {
+  width: 1024px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(197, 165, 200);
+  font-family: cursive;
+}
+
+h1 {
+  font-style: normal;
+  color: black;
+  font-family:cursive;
+  
+}
+
+h3 {
+    font-style: normal;
+    color: black;
+    font-family:cursive;
+}
+
+
+p {
+  font-style: normal;
+  color: black;
+  font-family:cursive;
+}
+
+p.box1 {
+  width: 150px;
+  margin: 20px 20px;
+  padding: 10px;
+  font-size: normal;
+  font-family:cursive;
+  background-color: rgb(68, 0, 85);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  
+}
+
+
+p.box2 {
+  width: 180px;
+  margin: 20px 20px;
+  padding: 10px;
+  font-size: normal;
+  font-family:cursive;
+  background-color: rgb(68, 0, 85);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  bottom: 20px;
+}
+
+p.box3 {
+  width: 180px;
+  margin: 20px 20px;
+  padding: 10px;
+  font-size: normal;
+  font-family:cursive;
+  background-color: rgb(68, 0, 85);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+p.box4 {
+  width: 180px;
+  margin: 20px 20px;
+  padding: 10px;
+  font-size: normal;
+  font-family:cursive;
+  background-color: rgb(68, 0, 85);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+
+p.box5 {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(68, 0, 85);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgb(68, 0, 85), 0px 0px 25px black;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: auto;
+    margin: 10px auto;
+    border: solid 2px rgb(0, 0, 0);
+    font-family:cursive;  
+    border-radius: 50px;
+}
+
+em{
+    color: blueviolet;
+}
+span{
+    color: rgb(40, 142, 226);
+}
+
+p.box1:hover{
+    box-shadow: 0px 0px 20px rgb(68, 0, 85), 0px 0px 25px black;
+}
+p.box2:hover{
+    box-shadow: 0px 0px 20px rgb(68, 0, 85), 0px 0px 25px black;
+}
+p.box3:hover{
+    box-shadow: 0px 0px 20px rgb(68, 0, 85), 0px 0px 25px black;
+}
+p.box4:hover{
+    box-shadow: 0px 0px 20px rgb(68, 0, 85), 0px 0px 25px black;
+}
+p.box1:active{
+    box-shadow: 0px 0px 20px rgb(40, 142, 226), 0px 0px 25px black;
+}
+p.box2:active{
+    box-shadow: 0px 0px 20px rgb(40, 142, 226), 0px 0px 25px black;
+}
+p.box3:active{
+    box-shadow: 0px 0px 20px rgb(40, 142, 226), 0px 0px 25px black;
+}
+p.box4:active{
+    box-shadow: 0px 0px 20px rgb(40, 142, 226), 0px 0px 25px black;
+}
